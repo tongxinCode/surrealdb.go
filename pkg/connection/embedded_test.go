@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	"github.com/surrealdb/surrealdb.go/pkg/models"
+	"github.com/tongxinCode/surrealdb.go/pkg/models"
 )
 
 type EmbeddedConnectionTestSuite struct {

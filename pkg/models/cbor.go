@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/fxamacker/cbor/v2"
-	"github.com/surrealdb/surrealdb.go/internal/codec"
+	"github.com/tongxinCode/surrealdb.go/internal/codec"
 )
 
 var (

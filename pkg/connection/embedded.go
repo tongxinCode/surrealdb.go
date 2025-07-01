@@ -16,9 +16,9 @@ import (
 	"unsafe"
 
 	"github.com/fxamacker/cbor/v2"
-	"github.com/surrealdb/surrealdb.go/internal/codec"
-	"github.com/surrealdb/surrealdb.go/internal/rand"
-	"github.com/surrealdb/surrealdb.go/pkg/constants"
+	"github.com/tongxinCode/surrealdb.go/internal/codec"
+	"github.com/tongxinCode/surrealdb.go/internal/rand"
+	"github.com/tongxinCode/surrealdb.go/pkg/constants"
 )
 
 type EmbeddedConnection struct {

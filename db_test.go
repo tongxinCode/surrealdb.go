@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/surrealdb/surrealdb.go"
+	"github.com/tongxinCode/surrealdb.go"
 
 	"github.com/stretchr/testify/suite"
-	"github.com/surrealdb/surrealdb.go/pkg/connection"
-	"github.com/surrealdb/surrealdb.go/pkg/models"
+	"github.com/tongxinCode/surrealdb.go/pkg/connection"
+	"github.com/tongxinCode/surrealdb.go/pkg/models"
 )
 
 // Default const and vars for testing

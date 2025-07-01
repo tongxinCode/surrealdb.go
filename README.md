@@ -11,13 +11,13 @@
 <br>
 
 <p align="center">
-    <a href="https://github.com/surrealdb/surrealdb.go"><img src="https://img.shields.io/badge/status-beta-ff00bb.svg?style=flat-square"></a>
+    <a href="https://github.com/tongxinCode/surrealdb.go"><img src="https://img.shields.io/badge/status-beta-ff00bb.svg?style=flat-square"></a>
     &nbsp;
     <a href="https://surrealdb.com/docs/integration/libraries/golang"><img src="https://img.shields.io/badge/docs-view-44cc11.svg?style=flat-square"></a>
     &nbsp;
-    <a href="https://pkg.go.dev/github.com/surrealdb/surrealdb.go"><img src="https://img.shields.io/github/go-mod/go-version/surrealdb/surrealdb.go?style=flat-square&label=go"></a>
+    <a href="https://pkg.go.dev/github.com/tongxinCode/surrealdb.go"><img src="https://img.shields.io/github/go-mod/go-version/tongxinCode/surrealdb.go?style=flat-square&label=go"></a>
 	&nbsp;
-	<a href="https://goreportcard.com/report/github.com/surrealdb/surrealdb.go"><img src="https://goreportcard.com/badge/github.com/surrealdb/surrealdb.go?style=flat-square"></a>
+	<a href="https://goreportcard.com/report/github.com/tongxinCode/surrealdb.go"><img src="https://goreportcard.com/badge/github.com/tongxinCode/surrealdb.go?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@ View the SDK documentation [here](https://surrealdb.com/docs/integration/librari
 ## How to install
 
 ```sh
-go get github.com/surrealdb/surrealdb.go
+go get github.com/tongxinCode/surrealdb.go
 ```
 
 ## Getting started
@@ -55,8 +55,8 @@ package main
 
 import (
 	"fmt"
-	surrealdb "github.com/surrealdb/surrealdb.go"
-	"github.com/surrealdb/surrealdb.go/pkg/models"
+	surrealdb "github.com/tongxinCode/surrealdb.go"
+	"github.com/tongxinCode/surrealdb.go/pkg/models"
 )
 
 type Person struct {

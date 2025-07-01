@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/surrealdb/surrealdb.go/internal/codec"
+	"github.com/tongxinCode/surrealdb.go/internal/codec"
 
 	"io"
 	"log/slog"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/surrealdb/surrealdb.go/internal/rand"
-	"github.com/surrealdb/surrealdb.go/pkg/constants"
-	"github.com/surrealdb/surrealdb.go/pkg/logger"
+	"github.com/tongxinCode/surrealdb.go/internal/rand"
+	"github.com/tongxinCode/surrealdb.go/pkg/constants"
+	"github.com/tongxinCode/surrealdb.go/pkg/logger"
 
 	gorilla "github.com/gorilla/websocket"
 )
