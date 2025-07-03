@@ -110,7 +110,7 @@ func (c CborUnmarshaler) NewDecoder(r io.Reader) codec.Decoder {
 func getCborEncoder() cbor.EncMode {
 	tags := registerCborTags()
 	em, err := cbor.EncOptions{
-		Time:    cbor.TimeRFC3339,
+		Time:    cbor.TimeRFC3339Nano,
 		TimeTag: cbor.EncTagRequired,
 	}.EncModeWithTags(tags)
 	if err != nil {
